@@ -1,6 +1,11 @@
 $KwszDir = "$env:USERPROFILE\.kwsz"
 $KwszScript = "$KwszDir\kwsz.ps1"
 
+if (-not (Get-Command git -ErrorAction SilentlyContinue)) {
+    Write-Host "Git is not installed. Exiting..." -ForegroundColor Red -BackgroundColor Black
+    Exit 1
+}
+
 if(!(Test-Path -Path $KwszDir)) {
     git clone https://kwsz.sh/scripts $KwszDir
 }
