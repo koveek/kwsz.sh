@@ -6,7 +6,7 @@ if (-not (Get-Command git -ErrorAction SilentlyContinue)) {
     Exit 1
 }
 
-if(!(Test-Path -Path $KwszDir)) {
+if (-not (Test-Path -Path $KwszDir)) {
     git clone https://kwsz.sh/scripts $KwszDir
 }
 
@@ -20,10 +20,10 @@ function kwsz {
 }
 "@
 
-if(!(Test-Path -Path $PROFILE)) {
+if (-not (Test-Path -Path $PROFILE)) {
     New-Item -Path $PROFILE -ItemType File
 }
 
-if(-not (Get-Content $PROFILE | Select-String "function kwsz")) {
+if (-not (Get-Content $PROFILE | Select-String "function kwsz")) {
     Add-Content -Path $PROFILE -Value "`n$KwszFunction"
 }
