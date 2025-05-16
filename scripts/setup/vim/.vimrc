@@ -1,5 +1,5 @@
 " set leader key to space
-let map leader = " "
+let mapleader = "\<Space>"
 nnoremap <Space> <Nop>
 
 " writing into black hole register to 'just' delete instead of cutting
