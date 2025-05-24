@@ -3,10 +3,8 @@ let mapleader = "\<Space>"
 nnoremap <Space> <Nop>
 
 " writing into black hole register to 'just' delete instead of cutting
-nnoremap d "_x
-vnoremap d "_x
-nnoremap D "_x
-vnoremap D "_x
+nnoremap d "_d
+vnoremap d "_d
 
 set clipboard=unnamedplus
 
