@@ -39,4 +39,3 @@ if (-not (Get-Content $PROFILE | Select-String "function kwsz")) {
     Add-Content -Path $PROFILE -Value "`n$KwszFunction"
     Write-Host "Added kwsz function to profile. Restart the terminal to use it" -ForegroundColor Green -BackgroundColor Black
 }
-
