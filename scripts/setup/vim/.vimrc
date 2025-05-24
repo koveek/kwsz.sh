@@ -6,9 +6,9 @@ nnoremap <Space> <Nop>
 nnoremap d "_d
 vnoremap d "_d
 
+" rebind Ctrl-j and Ctrl-k to navigate through the completion menu"
 inoremap <C-j> <C-n>
 inoremap <C-k> <C-p>
-
 inoremap <C-n> <Nop>
 inoremap <C-p> <Nop>
 
