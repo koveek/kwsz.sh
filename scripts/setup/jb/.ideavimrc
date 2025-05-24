@@ -9,11 +9,6 @@ source ~/.vimrc
 " Highlight copied text
 Plug 'machakann/vim-highlightedyank'
 
-map <C-/> <Action>(SearchEverywhere)
-
-nmap <C-m> <Action>(ShowIntentionActions)
-imap <C-m> <Action>(ShowIntentionActions)
-
 " Refactoring
 nmap <leader>re <Action>(RenameElement)
 nmap <leader>rs <Action>(ChangeSignature)

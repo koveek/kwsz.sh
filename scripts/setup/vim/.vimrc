@@ -6,6 +6,12 @@ nnoremap <Space> <Nop>
 nnoremap d "_d
 vnoremap d "_d
 
+inoremap <C-j> <C-n>
+inoremap <C-k> <C-p>
+
+inoremap <C-n> <Nop>
+inoremap <C-p> <Nop>
+
 set clipboard=unnamedplus
 
 " disable vi compatibility
