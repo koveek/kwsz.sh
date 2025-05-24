@@ -9,6 +9,8 @@ source ~/.vimrc
 " Highlight copied text
 Plug 'machakann/vim-highlightedyank'
 
+imap <C-l> <Action>(InsertInlineCompletionAction)
+
 " Refactoring
 nmap <leader>re <Action>(RenameElement)
 nmap <leader>rs <Action>(ChangeSignature)
