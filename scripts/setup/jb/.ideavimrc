@@ -9,6 +9,8 @@ source ~/.vimrc
 " Highlight copied text
 Plug 'machakann/vim-highlightedyank'
 
+nmap <C-h> <Action>(QuickJavaDoc)
+imap <C-h> <Action>(ParameterInfo)
 imap <C-l> <Action>(InsertInlineCompletionAction)
 
 " Refactoring
