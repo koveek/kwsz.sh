@@ -1,0 +1,7 @@
+EditorDown = down, ctrl j
+EditorUp = up, ctrl k
+SearchEverywhere = ctrl slash
+ShowIntentionActions = ctrl enter
+
+Unbind ctrl h
+Unbind ctrl l
