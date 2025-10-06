@@ -12,7 +12,7 @@ inoremap <C-k> <C-p>
 inoremap <C-n> <Nop>
 inoremap <C-p> <Nop>
 
-set clipboard=unnamed
+set clipboard=unnamed,unnamedplus
 
 " disable vi compatibility
 set nocompatible
