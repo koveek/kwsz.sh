@@ -1,58 +1,45 @@
 <keymap version="1" name="kwsz Mac OS X" parent="Mac OS X 10.5+">
-  <action id="Arrangement.Alias.Rule.Add">
-    <keyboard-shortcut first-keystroke="meta n" />
+  <action id="CIDR.Debugger.ShowInMemoryView" />
+  <action id="ChangesView.ToggleCommitUi" />
+  <action id="CheckinProject" />
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="meta divide" />
   </action>
-  <action id="Arrangement.Rule.Add">
-    <keyboard-shortcut first-keystroke="meta n" />
-  </action>
-  <action id="EditorCutLineEnd" />
+  <action id="Console.Execute.Multiline" />
+  <action id="Console.Jdbc.Execute" />
+  <action id="Console.SplitLine" />
+  <action id="Console.TableResult.Submit" />
+  <action id="DatabaseView.Tools.SubmitChanges" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
+  <action id="Docker.RemoteServers.StartComposeService" />
+  <action id="Docker.RemoteServers.StartContainer" />
   <action id="EditorDown">
-    <keyboard-shortcut first-keystroke="down" />
-    <keyboard-shortcut first-keystroke="ctrl j" />
+    <keyboard-shortcut first-keystroke="meta j" />
   </action>
   <action id="EditorDownWithSelection" />
-  <action id="EditorScrollToCenter" />
+  <action id="EditorSplitLine" />
   <action id="EditorUp">
-    <keyboard-shortcut first-keystroke="up" />
-    <keyboard-shortcut first-keystroke="ctrl k" />
+    <keyboard-shortcut first-keystroke="meta k" />
   </action>
   <action id="EditorUpWithSelection" />
-  <action id="Generate">
-    <keyboard-shortcut first-keystroke="meta n" />
+  <action id="FileChooser.GoToRoot" />
+  <action id="Git.Commit.Stage" />
+  <action id="GotoLine" />
+  <action id="Images.Editor.ActualSize">
+    <keyboard-shortcut first-keystroke="meta divide" />
   </action>
-  <action id="NewElement">
-    <keyboard-shortcut first-keystroke="meta n" />
-  </action>
-  <action id="QuickJavaDoc">
-    <keyboard-shortcut first-keystroke="f1" />
-    <mouse-shortcut keystroke="control button2" />
-  </action>
-  <action id="RiderNuGetQuickDocAction">
-    <keyboard-shortcut first-keystroke="f1" />
-    <mouse-shortcut keystroke="control button2" />
-  </action>
+  <action id="InsertLiveTemplate" />
+  <action id="RiderDotCoverCoveringTestsPopupCoverAllTestsAction" />
+  <action id="RiderUnitTestRunSolutionTwAction" />
   <action id="SearchEverywhere">
-    <keyboard-shortcut first-keystroke="ctrl slash" />
-  </action>
-  <action id="ServiceView.AddService">
-    <keyboard-shortcut first-keystroke="meta n" />
+    <keyboard-shortcut first-keystroke="meta slash" />
   </action>
   <action id="ShowIntentionActions">
-    <keyboard-shortcut first-keystroke="ctrl enter" />
+    <keyboard-shortcut first-keystroke="meta enter" />
   </action>
-  <action id="Terminal.ShowDocumentation">
-    <keyboard-shortcut first-keystroke="f1" />
-    <mouse-shortcut keystroke="control button2" />
-  </action>
-  <action id="TypeHierarchy" />
-  <action id="Uml.NewElement">
-    <keyboard-shortcut first-keystroke="meta n" />
-  </action>
-  <action id="Vcs.Log.ShowTooltip">
-    <keyboard-shortcut first-keystroke="f1" />
-    <mouse-shortcut keystroke="control button2" />
-  </action>
-  <action id="WeighingNewGroup">
-    <keyboard-shortcut first-keystroke="meta n" />
-  </action>
+  <action id="SplitChooser.Duplicate" />
+  <action id="Terminal.ClearBuffer" />
+  <action id="Terminal.SmartCommandExecution.Run" />
+  <action id="Vcs.Log.FocusTextFilter" />
+  <action id="ViewSource" />
 </keymap>
